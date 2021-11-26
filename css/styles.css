@@ -1,0 +1,49 @@
+/* .menu__botones{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        background-color: brown;
+        
+    
+} */
+
+/* .menu__botones{
+    background-color: brown;
+    
+} */
+body {
+    background-color:#ebebeb
+}
+.menu{
+    background-color: rgb(2, 182, 137);
+}
+li {
+    display: inline;
+    }
+
+li:hover {
+    background-color: beige;
+}
+
+.bloqueMenu {
+    margin-left: 300px;
+}
+    
+.cursosTratamientos{
+    background-color: cornflowerblue;
+    display: flex;
+}
+
+.cursoA {
+    width: 8rem;
+    margin-left: 5rem;
+}
+.prepartoImg{ 
+    width: 100px;
+    border-radius: 60%;
+}
+
+
+h1 { 
+    font-family: sans-serif;
+    font-size: 15px;
+}

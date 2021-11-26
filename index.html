@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="./css/styles.css" rel="stylesheet">
 </head>
-<body>
+<body class: main>
     <header>
-        <img width="110" height="70" src="./assets/images/logos/logo.png" alt="logogrupomedico"> 
-        <!--se puede usar solo el atributo WITH para reducir el tamaño, manteniendo la proporcion de escala de la imagen-->
-       <nav>
-            <ul>
+              <!--se puede usar solo el atributo WITH para reducir el tamaño, manteniendo la proporcion de escala de la imagen-->
+       <nav class="menu">
+            <img width="110" height="70" src="./assets/images/logos/logo.png" alt="logogrupomedico"> 
+            <ul class="bloqueMenu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="./pages/especialidades.html">Especialidades</a></li>
             <li><a href="./pages/el_centro.html">El Centro</a></li>
@@ -23,13 +24,21 @@
 
     </header>
     <main>
-<h1>Grupo Medico</h1>
-<h2>Inicio</h2>
-<div> <!--bloque de cursos y ttos-->
-    <img src="./assets/images/20-weeks-pregnant-709x709.jpg" alt="preparto1">
-<h4>Curso de Preparto</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h1>Grupo Medico / Inicio</h1>
+<div class="cursosTratamientos"> <!--bloque de cursos y ttos-->
+    <div class="cursoA">
+        <img class="prepartoImg" src="./assets/images/20-weeks-pregnant-709x709.jpg" alt="preparto1">
+<h4 class="subtitulo">Curso de Preparto</h4>
+<p class="descripcionTratamiento" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <span><strong>MAS INFORMACION</strong></span>
+    </div>
+
+    <div class="cursoA">
+        <img class="prepartoImg" src="./assets/images/20-weeks-pregnant-709x709.jpg" alt="preparto1">
+<h4 class="subtitulo">Curso de Preparto</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<span class="masInfo"><strong>MAS INFORMACION</strong></span>
+    </div>
 
 </div>
 
